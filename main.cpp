@@ -1,7 +1,8 @@
 //Test file
 
 #include <iostream>
-#include "lib.h"
+#include "CurrencyFormatter.h"
+#include "PrintMatrix.h"
 using namespace std;
 
 int main(){

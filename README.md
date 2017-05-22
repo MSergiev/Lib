@@ -4,7 +4,7 @@ Completion progress:
 
 - (+)Currency formatting function
 - (+)Matrix printing function
-- Floating point number rounding function
+- )+)Floating point number rounding function
 - Quotient/Remainder finding function
 - Function to generate a number from a range
 - Function to get an item from an array by index

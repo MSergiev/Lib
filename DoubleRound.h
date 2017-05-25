@@ -16,7 +16,7 @@ double doubleRound(double num,
 		digits.push_back(dec%10);
 		dec/=10;
 	}
-	before=digits.size()-before;
+	before=digits.size()-before-1;
 	unsigned decRight=0;
 	for(unsigned i = 0; i < digits.size(); ++i)
 		(i<before?decRight:dec)+=digits[i]*pow(10,i);

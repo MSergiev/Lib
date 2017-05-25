@@ -8,6 +8,7 @@
 #include "DoubleRound.h"
 #include "RandomOperations.h"
 #include "Division.h"
+#include "Epoch.h"
 using namespace std;
 
 int main(){
@@ -52,5 +53,8 @@ int main(){
 	divStr d = divide(256, 33);
 	cout << "256/33=" << d.quotient << "*33+" << d.remainder << endl;
 
+	cout << "\n- Time test: " << endl;
+	Epoch ep(time(0), 2, true);
+	cout << ep;
 	return 0;
 }

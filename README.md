@@ -10,8 +10,8 @@ Completion progress:
 - (+)Function to get an item from an array by index
 - (+)Array shuffling function
 - (+)Random enqueue/dequeue function
-- Card hand evaluating function
-- Time class
+- (+)Card hand evaluating function (refer to repo "Console-Poker")
+- (+)Time class
 - Complex number class
 - Rational number class
 - Rectangle class

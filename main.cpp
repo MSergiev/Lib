@@ -9,6 +9,7 @@
 #include "RandomOperations.h"
 #include "Division.h"
 #include "Epoch.h"
+#include "Complex.h"
 using namespace std;
 
 int main(){
@@ -56,5 +57,19 @@ int main(){
 	cout << "\n- Time test: " << endl;
 	Epoch ep(time(0), 2, true);
 	cout << ep;
+
+	cout << "\n- Complex number test: " << endl;
+	Complex c1(-3,5);
+	Complex c2(2,-8);
+	cout.precision(0);
+	cout << c1 << "+" << c2 << "=" << (c1+c2) << endl;
+	cout << c1 << "-" << c2 << "=" << (c1-c2) << endl;
+	cout << c1 << "*" << c2 << "=" << (c1*c2) << endl;
+	cout << c1 << "/" << c2 << "=";
+	cout.precision(3);
+	cout << (c1/c2) << endl;
+	cout.precision(0);
+	cout << c1 << "==" << c2 << "=" << (c1==c2) << endl;
+	cout << "~" << c1 << "=" << (~c1) << endl;
 	return 0;
 }

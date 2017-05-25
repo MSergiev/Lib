@@ -12,7 +12,7 @@ Completion progress:
 - (+)Random enqueue/dequeue function
 - (+)Card hand evaluating function (refer to repo "Console-Poker")
 - (+)Time class
-- Complex number class
+- (+)Complex number class
 - Rational number class
 - Rectangle class
 - Huge Integer class

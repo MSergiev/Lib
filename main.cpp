@@ -7,6 +7,7 @@
 #include "PrintMatrix.h"
 #include "DoubleRound.h"
 #include "RandomOperations.h"
+#include "Division.h"
 using namespace std;
 
 int main(){
@@ -47,7 +48,9 @@ int main(){
 	while(tmpQue.size() > 0){ cout << tmpQue.front(); tmpQue.pop();}
 	cout << endl;
 
-	
+	cout << "\n- Division quotient/remainder test: " << endl;
+	divStr d = divide(256, 33);
+	cout << "256/33=" << d.quotient << "*33+" << d.remainder << endl;
 
 	return 0;
 }

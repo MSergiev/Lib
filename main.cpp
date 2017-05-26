@@ -10,6 +10,7 @@
 #include "Division.h"
 #include "Epoch.h"
 #include "Complex.h"
+#include "Rational.h"
 using namespace std;
 
 int main(){
@@ -71,5 +72,22 @@ int main(){
 	cout.precision(0);
 	cout << c1 << "==" << c2 << "=" << (c1==c2) << endl;
 	cout << "~" << c1 << "=" << (~c1) << endl;
+	
+	cout << "\n- Rational number test: " << endl;
+	Rational r1(-4,-8);
+	Rational r2(2,-3);
+	cout << "r1=" << r1 << endl;
+	cout << "r2=" << r2 << endl;
+	cout << r1 << " + " << r2 << " = " << (r1+r2) << endl;
+	cout << r1 << " - " << r2 << " = " << (r1-r2) << endl;
+	cout << r1 << " * " << r2 << " = " << (r1*r2) << endl;
+	cout << r1 << " / " << r2 << " = " << (r1/r2) << endl;
+	cout << r1 << " > " << r2 << " = " << (r1>r2) << endl;
+	cout << r1 << " < " << r2 << " = " << (r1<r2) << endl;
+	cout << r1 << " == " << r2 << " = " << (r1==r2) << endl;
+	cout << r1 << " != " << r2 << " = " << (r1!=r2) << endl;
+	cout << r1 << " ++= " << (r1++) << endl;
+	cout << r2 << " --= " << (--r2) << endl;
+
 	return 0;
 }

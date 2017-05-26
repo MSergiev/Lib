@@ -12,6 +12,7 @@
 #include "Complex.h"
 #include "Rational.h"
 #include "IntegerSet.h"
+#include "Rectangle.h"
 using namespace std;
 
 int main(){
@@ -101,5 +102,14 @@ int main(){
 	cout << "i1 * i2 = " << (i1*i2);
 	cout << "i1 == i2 = " << (i1==i2) << endl;
 	
+	cout << "\n- Rectangle test: " << endl;
+	rPair tl, br;
+	tl.x = 0; tl.y = 5;
+	br.x = 7; br.y = 0;
+	Rectangle rect(tl, br);
+	cout << "Point coordinates: " << rect;
+	cout << "Perimeter: " << rect.perimeter() << endl;
+	cout << "Area: " << rect.area() << endl;
+	cout << rect.draw();
 	return 0;
 }

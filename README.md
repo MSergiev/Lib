@@ -13,7 +13,7 @@ Completion progress:
 - (+)Card hand evaluating function (refer to repo "Console-Poker")
 - (+)Time class
 - (+)Complex number class
-- Rational number class
+- (+)Rational number class
 - Rectangle class
-- Huge Integer class
+- (+)Huge Integer class (refer to repo "HugeInteger")
 - Integer Set class

@@ -14,6 +14,6 @@ Completion progress:
 - (+)Time class
 - (+)Complex number class
 - (+)Rational number class
-- Rectangle class
+- (+)Rectangle class
 - (+)Huge Integer class (refer to repo "HugeInteger")
 - (+)Integer Set class

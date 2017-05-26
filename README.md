@@ -16,4 +16,4 @@ Completion progress:
 - (+)Rational number class
 - Rectangle class
 - (+)Huge Integer class (refer to repo "HugeInteger")
-- Integer Set class
+- (+)Integer Set class

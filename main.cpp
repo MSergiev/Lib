@@ -11,6 +11,7 @@
 #include "Epoch.h"
 #include "Complex.h"
 #include "Rational.h"
+#include "IntegerSet.h"
 using namespace std;
 
 int main(){
@@ -89,5 +90,16 @@ int main(){
 	cout << r1 << " ++= " << (r1++) << endl;
 	cout << r2 << " --= " << (--r2) << endl;
 
+	cout << "\n- Integer set test: " << endl;
+	IntegerSet i1(50);
+	IntegerSet i2(50);
+	for(int i = 0; i <= 50; i+=2) i1.addElement(i);
+	for (int i = 0; i <= 50; i+=3) i2.addElement(i);
+	cout << "i1: " << i1;
+	cout << "i2: " << i2;
+	cout << "i1 + i2 = " << (i1+i2);
+	cout << "i1 * i2 = " << (i1*i2);
+	cout << "i1 == i2 = " << (i1==i2) << endl;
+	
 	return 0;
 }

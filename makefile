@@ -1,2 +1,2 @@
-test: main.cpp CurrencyFormatter.h PrintMatrix.h DoubleRound.h RandomOperations.h Division.h Epoch.cpp Complex.cpp Rational.cpp
-	g++ -o test main.cpp CurrencyFormatter.h PrintMatrix.h DoubleRound.h RandomOperations.h Division.h Epoch.cpp Complex.cpp Rational.cpp
+test: main.cpp CurrencyFormatter.h PrintMatrix.h DoubleRound.h RandomOperations.h Division.h Epoch.cpp Complex.cpp Rational.cpp IntegerSet.cpp
+	g++ -o test main.cpp CurrencyFormatter.h PrintMatrix.h DoubleRound.h RandomOperations.h Division.h Epoch.cpp Complex.cpp Rational.cpp IntegerSet.cpp
